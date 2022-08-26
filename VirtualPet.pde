@@ -1,8 +1,40 @@
-
-void setup(){
-  //some of your code here
+void setup()
+{
+  size(300,300);
 }
-void draw(){
- ellipse(50,50,50,50);
+void draw()
+{
+  System.out.println(mouseX + "," + mouseY);
+  background(51,185,39);
+  stroke(0,0,0);
+  strokeWeight(4);
+  fill(157,157,157);
+  ellipse(140,290,150,100);
+  fill(42,113,55);
+  strokeWeight(3);
+  ellipse(258,163,15,8);
+  strokeWeight(4);
+  rect(240,10,10,308);
+  rect(36,190,10,308);
+  fill(0,0,0);
+  ellipse(95,95,40,40);
+  fill(0,0,0);
+  ellipse(125,262,23,30);
+  ellipse(175,262,23,30);
+  ellipse(205,95,40,40);
+  fill(255,255,255);
+  ellipse(150,220,90,80);
+  fill(0,0,0);
+  ellipse(117,218,23,30);
+  ellipse(183,218,23,30);
+  fill(255,255,255);
+  ellipse(150,150,150,130);
+  fill(0,0,0);
+  ellipse(115,145,25,30);
+  ellipse(185,145,25,30);
+  ellipse(150,155,10,6);
+  fill(255,255,255);
+  noStroke();
+  ellipse(120,145,8,8);
+  ellipse(180,145,8,8);
 }
-
