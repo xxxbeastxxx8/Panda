@@ -4,7 +4,6 @@ void setup()
 }
 void draw()
 {
-  System.out.println(mouseX + "," + mouseY);
   background(51,185,39);
   stroke(0,0,0);
   strokeWeight(4);
